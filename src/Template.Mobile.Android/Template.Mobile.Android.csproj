@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -101,14 +101,14 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Template.Mobile\Template.Mobile.csproj">
-      <Project>{30CE0A4F-0A9E-4A28-ACA3-78B7A1351BA5}</Project>
-      <Name>Template.Mobile</Name>
+    <ProjectReference Include="..\Template.Xamarin.Mvvm\Template.Xamarin.Mvvm.csproj">
+      <Project>{a812a6cc-a0fe-4911-b3c1-13e2bd363f6b}</Project>
+      <Name>Template.Xamarin.Mvvm</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Template.Common.Mvvm\Template.Common.Mvvm.csproj">
-      <Project>{A812A6CC-A0FE-4911-B3C1-13E2BD363F6B}</Project>
-      <Name>Template.Common.Mvvm</Name>
+    <ProjectReference Include="..\Template.Xamarin\Template.Xamarin.csproj">
+      <Project>{30ce0a4f-0a9e-4a28-aca3-78b7a1351ba5}</Project>
+      <Name>Template.Xamarin</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

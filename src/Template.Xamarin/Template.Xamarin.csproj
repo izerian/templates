@@ -15,7 +15,8 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\Template.Common.Mvvm\Template.Common.Mvvm.csproj" />
+    <ProjectReference Include="..\Template.Xamarin.Mvvm\Template.Xamarin.Mvvm.csproj" />
   </ItemGroup>
 </Project>

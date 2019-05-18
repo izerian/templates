@@ -5,9 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5C53A787-4538-48D3-9F77-E64F696391BD}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Template.Mobile.UITests</RootNamespace>
-    <AssemblyName>Template.Mobile.UITests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Template.Xamarin.UITests</RootNamespace>
+    <AssemblyName>Template.Xamarin.UITests</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,13 +33,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Template.Mobile.iOS\Template.Mobile.iOS.csproj">
       <Project>{0DA0B787-EB26-4004-ACAF-ABB4FB963E71}</Project>
-      <Name>Template.Mobile.iOS</Name>
+      <Name>Template.Xamarin.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\Template.Mobile.Android\Template.Mobile.Android.csproj">
       <Project>{3E6CC4DC-C7F6-47CB-88D5-7844D364B832}</Project>
-      <Name>Template.Mobile.Android</Name>
+      <Name>Template.Xamarin.Android</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
